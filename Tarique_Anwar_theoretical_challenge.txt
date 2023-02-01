@@ -1,0 +1,29 @@
+Prospecta Theoretical Challenge
+
+Q1) How will you tackle the challenge above?
+
+Solution:- 
+-> To tackle the above challenge, we can use the Scanner class in java to read the
+csv file by specifying the location of csv file while declaring the scanner
+and using new File() constructor.
+
+-> Then we can perform the operations according to the given statements and formulae
+to get the desired result.
+
+-> After this we can use FileWriter class and the write method present in this
+class to write on the csv file and provide the output.
+
+
+Q2) What type of errors you would you check for? 
+
+Solution:- 
+We can get the File not found exception if we provide a wrong name or wrong location 
+of the .csv file.
+
+
+Q3) How might a user break your code?
+
+Solution
+--> A user might break the code if he deletes the .csv file or changes the 
+location of the .csv file or even if he renames the .csv file.
+If any of these happens, we would get the file not found exception.
